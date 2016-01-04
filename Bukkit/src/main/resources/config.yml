@@ -1,0 +1,15 @@
+amqp:
+  # URI to AMQP message broker
+  # See https://www.rabbitmq.com/uri-spec.html
+  uri: amqp://username:password@host:5672/vhost
+
+  # The name of the exchange
+  exchange: messenger
+
+features:
+  server_player:
+    enabled: true
+    namespace: server_player
+  proxy_player:
+    enabled: true
+    namespace: proxy_player

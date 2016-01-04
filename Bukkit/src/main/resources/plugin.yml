@@ -1,0 +1,8 @@
+name: BukkitMessenger
+version: ${project.version}
+main: de.maxikg.messenger.bukkit.MessengerPlugin
+author: maxikg
+load: STARTUP
+
+commands:
+  messenger-test: ~
